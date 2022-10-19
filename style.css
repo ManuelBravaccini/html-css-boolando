@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Cabin", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .flex{
@@ -17,6 +18,13 @@ header nav{
     height: 5rem;
     justify-content: space-between;
     align-items: center;
+    color: white;
+}
+
+div.links>a{
+    text-decoration: none;
+    outline: none;
+    color: white;
 }
 
 div p{
@@ -40,9 +48,6 @@ section.container{  /*Main*/
     justify-content: space-between;
     
 }
-
-
-
 
 .item-image>img{
     width: 300px;
