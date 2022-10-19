@@ -3,3 +3,26 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.flex{
+    display: flex;
+}
+
+.wide{
+    padding: 0 10rem;
+}
+
+nav{
+    background-color: #ff6900;
+    height: 5rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div p{
+    display: inline-block;
+}
+
+img{
+    width: 10rem;
+}
