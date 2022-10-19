@@ -46,7 +46,6 @@ div.logo img{
 section.container{  /*Main*/
     margin: 2rem 0;
     justify-content: space-between;
-    
 }
 
 .item-image>img{
@@ -56,24 +55,48 @@ section.container{  /*Main*/
 span.favourite{
     top: 10px;
     right: 0;
+    font-size: 2rem;
+    padding: 0.25rem 1rem;
+    background-color: white;
 }
 
-span.discount-50{
+span.discount{
     bottom: 50px;
     left: 0px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    background-color: red;
+    color: white;
+    padding: 0.5rem;
 }
 
 .sostenibility{
     bottom: 50px;
     left: 50px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    background-color: green;
+    color: white;
+    padding: 0.5rem;
 }
 
+div.item-text>h1{
+    font-weight: lighter;
+    font-size: 0.8rem;
+}
 
+div.item-text>h2{
+    font-weight: bold;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
 
-
-
-
-
+div.item-text>p{
+    font-weight: bold;
+    font-size: 1rem;
+    color: red;
+    text-transform: uppercase;
+}
 
 footer{ /*Footer*/
     background-color: #1a1a1a;
@@ -82,3 +105,9 @@ footer{ /*Footer*/
     padding: 2rem;
 }
 
+footer h4{
+    font-weight: lighter;
+    font-size: 0.9rem;
+    display: inline-block;
+    padding: 0.5rem;
+}
